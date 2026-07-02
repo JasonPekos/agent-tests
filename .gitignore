@@ -1,0 +1,12 @@
+# harbor run output — heavy; harvest to analysis/ instead of committing
+jobs/
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# os
+.DS_Store

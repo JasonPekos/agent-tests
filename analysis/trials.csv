@@ -1,0 +1,5 @@
+job,trial_name,task_name,agent,model,reward,all_rewards,errored,exception_type,n_input_tokens,n_cache_tokens,n_output_tokens,cost_usd,started_at,trial_sec,agent_exec_sec,difficulty,family
+claude-code-smoke,hello-harbor__XNc3C3a,jason/hello-harbor,claude-code,anthropic/claude-sonnet-5,1.0,"{""reward"": 1.0}",False,,59859,48567,186,0.07654709999999999,2026-07-02T17:56:23.222210Z,44.636547,4.47828,trivial,smoke-test
+oracle-golfed,hello-harbor__JRkWHdT,jason/hello-harbor,oracle,,1.0,"{""reward"": 1.0}",False,,,,,,2026-07-02T18:24:16.092410Z,13.530735,0.193738,trivial,smoke-test
+oracle-smoke,hello-harbor__ZYZMh36,jason/hello-harbor,oracle,,0.0,"{""reward"": 0.0}",False,,,,,,2026-07-02T05:35:43.024974Z,27.970371,0.170995,trivial,smoke-test
+oracle-smoke-2,hello-harbor__24FAdMS,jason/hello-harbor,oracle,,1.0,"{""reward"": 1.0}",False,,,,,,2026-07-02T06:41:55.926657Z,35.108267,0.200184,trivial,smoke-test

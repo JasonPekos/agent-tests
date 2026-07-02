@@ -1,0 +1,22 @@
+schema_version = "1.3"
+
+[task]
+name = "jason/hello-harbor"
+description = "Pipeline smoke test: count error events in a JSON file and write the answer to a file."
+
+# Free-form; harvest.py joins these onto every trial row (clustered SEs / IRT
+# need the labels later, so every task declares them).
+[metadata]
+difficulty = "trivial"
+family = "smoke-test"
+
+[agent]
+timeout_sec = 600.0
+
+[verifier]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 4096

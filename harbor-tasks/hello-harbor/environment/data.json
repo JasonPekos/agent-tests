@@ -1,0 +1,10 @@
+[
+  {"id": 1, "service": "api", "status": "ok"},
+  {"id": 2, "service": "api", "status": "error"},
+  {"id": 3, "service": "db", "status": "ok"},
+  {"id": 4, "service": "db", "status": "error"},
+  {"id": 5, "service": "cache", "status": "ok"},
+  {"id": 6, "service": "api", "status": "timeout"},
+  {"id": 7, "service": "db", "status": "error"},
+  {"id": 8, "service": "cache", "status": "ok"}
+]
