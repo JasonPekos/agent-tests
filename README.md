@@ -4,7 +4,7 @@ Personal eval lab: custom benchmarks for LLM agents, run locally with Docker
 via [harbor](https://harborframework.com) (`uv tool install harbor`).
 
 ```
-harbor-tasks/     one directory per task
+harbor-tasks/     one directory per task (vendor/ = pristine upstream copies)
 jobs/             harbor run output (gitignored — harvest before deleting)
 analysis/         harvest.py + trials.csv (committed, one row per trial)
 notes/            one writeup per experiment (see notes/TEMPLATE.md)
